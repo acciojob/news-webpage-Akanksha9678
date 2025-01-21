@@ -15,7 +15,8 @@ body{
 header{
 	height:50px;
 	margin:0;
-	background:#011e29;
+	background-color:#011e29;
+	text-align:center;
 	color:white;
 	display:flex;
 	
@@ -40,5 +41,5 @@ header{
 	grid-area:pn;
 	background:rgb(255,255,255);
 	border-radius:10px;
-
+	text-align:center;
 }
