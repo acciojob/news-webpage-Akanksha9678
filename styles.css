@@ -3,7 +3,7 @@ body{
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
-	background:#dad8ed;
+	background:#f5f5f5;
 }
 .container{
 	display:grid;
@@ -14,19 +14,19 @@ body{
 }
 .header{
 	grid-area:h;
-	background:#1c1b26;
+	background:#011e29;
 	color:white;
 	line-height:5px;
 	text-align:center;
 }
-.article{
+.latest-news-section{
 	grid-area:la;
 	background:rgb(255,255,255);
 	border-radius:10px;
 	padding:5px;
 	height:max-content;
 }
-.main-article{
+.main-article-section{
 	grid-area:ma;
 	background:rgb(255,255,255);
 	border-radius:10px;
@@ -34,7 +34,7 @@ body{
 	text-align:center;
 	height:max-content;
 }
-.pictorial{
+.pictorial-news-section{
 	grid-area:pn;
 	background:rgb(255,255,255);
 	border-radius:10px;
