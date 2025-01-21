@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+body{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	background:rgb(255,255,255);
+}
+.container{
+	display:grid;
+	grid-template-columns:2fr 4fr 2fr;
+	grid-template-rows:50px 1fr;
+	grid-template-areas:"h h h" "la ma pn";
+	gap:10px;
+}
+.header{
+	grid-area:h;
+	background:#1c1b26;
+	color:white;
+	line-height:5px;
+	text-align:center;
+}
+.article{
+	grid-area:la;
+	background:#dad8ed;
+	border-radius:15%;
+	padding:5px;
+}
+.main-article{
+	grid-area:ma;
+	background:#dad8ed;
+	border-radius:15%;
+	padding:5px;
+	text-align:center;
+}
+.pictorial{
+	grid-area:pn;
+	background:#dad8ed;
+	border-radius:15%;
+	padding:5px;
+}
