@@ -12,12 +12,14 @@ body{
 	grid-template-areas:"la ma pn";
 	gap:10px;
 }
-.header{
+header{
 	height:50px;
 	margin:0;
 	background:#011e29;
 	color:white;
-	text-align:center;
+	display:flex;
+	align-items:center;
+	justify-content:center;
 }
 .latest-news-section{
 	grid-area:la;
