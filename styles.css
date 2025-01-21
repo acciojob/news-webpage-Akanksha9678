@@ -8,15 +8,15 @@ body{
 .container{
 	display:grid;
 	grid-template-columns:2fr 4fr 3fr;
-	grid-template-rows:50px 1fr;
-	grid-template-areas:"h h h" "la ma pn";
+	grid-template-rows:1fr;
+	grid-template-areas:"la ma pn";
 	gap:10px;
 }
 .header{
-	grid-area:h;
+	height:50px;
+	margin:0;
 	background:#011e29;
 	color:white;
-	line-height:5px;
 	text-align:center;
 }
 .latest-news-section{
