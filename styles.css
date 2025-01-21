@@ -16,11 +16,8 @@ header{
 	height:50px;
 	margin:0;
 	background-color:#011e29;
-	text-align:center;
-	color:white;
-	display:flex;
-	
-	
+	text-align:center ;
+	color:white;	
 }
 .latest-news-section{
 	grid-area:la;
