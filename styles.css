@@ -3,11 +3,11 @@ body{
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
-	background:rgb(255,255,255);
+	background:#dad8ed;
 }
 .container{
 	display:grid;
-	grid-template-columns:2fr 4fr 2fr;
+	grid-template-columns:2fr 4fr 3fr;
 	grid-template-rows:50px 1fr;
 	grid-template-areas:"h h h" "la ma pn";
 	gap:10px;
@@ -21,20 +21,22 @@ body{
 }
 .article{
 	grid-area:la;
-	background:#dad8ed;
-	border-radius:15%;
+	background:rgb(255,255,255);
+	border-radius:10px;
 	padding:5px;
+	height:max-content;
 }
 .main-article{
 	grid-area:ma;
-	background:#dad8ed;
-	border-radius:15%;
+	background:rgb(255,255,255);
+	border-radius:10px;
 	padding:5px;
 	text-align:center;
+	height:max-content;
 }
 .pictorial{
 	grid-area:pn;
-	background:#dad8ed;
-	border-radius:15%;
-	padding:5px;
+	background:rgb(255,255,255);
+	border-radius:10px;
+	padding:10px;
 }
